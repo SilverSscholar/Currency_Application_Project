@@ -14,6 +14,6 @@ my_notebook.pack(pady=5)
 
 
 #Create Two Frames
-currency_frame = Frame(my_notebook)
+currency_frame = Frame(my_notebook, width=480, height=480)
 conversion_frame
 root.mainloop()
